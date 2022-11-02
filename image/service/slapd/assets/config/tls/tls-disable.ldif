@@ -2,8 +2,6 @@ dn: cn=config
 changetype: modify
 delete: olcTLSCipherSuite
 -
-delete: olcTLSCACertificateFile
--
 delete: olcTLSCertificateFile
 -
 delete: olcTLSCertificateKeyFile
